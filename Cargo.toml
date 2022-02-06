@@ -1,0 +1,16 @@
+[package]
+name = "tiny-chip8"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tiny_chip8"
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "tiny_chip8"
+path = "src/main.rs"
+
+
+[dependencies]
